@@ -1,0 +1,405 @@
+The following is an analysis of the provided medical log, identifying dates, CPT codes, and summarizing events chronologically, structured in JSON format.
+
+```json
+{
+  "cpt_code_definitions": {
+    "90791": "Psychiatric Diagnostic Evaluation (No medical services)",
+    "90792": "Psychiatric Diagnostic Evaluation (With medical services)",
+    "90801": "Psychiatric Diagnosis Interview"
+  },
+  "dates_and_codes": [
+    {
+      "date": "1971-04-10",
+      "event": "Audit C Score Current: Score-1"
+    },
+    {
+      "date": "1971-07-08",
+      "event": "Plans to move; In-Home Services: None"
+    },
+    {
+      "date": "1971-09-12",
+      "event": "Report End marker"
+    },
+    {
+      "date": "1972-01-26",
+      "event": "Communication with referring physician: Not Done"
+    },
+    {
+      "date": "1972-07-20",
+      "cpt_code": "90791",
+      "event": "Psychiatric Diagnostic Evaluation (No medical services)"
+    },
+    {
+      "date": "1973-02-14",
+      "cpt_code": "90801",
+      "event": "Psychiatric Diagnosis Interview"
+    },
+    {
+      "date": "1975-04-09",
+      "event": "SOS-10 Total Score noted"
+    },
+    {
+      "date": "1975-07-29",
+      "cpt_code": "90801",
+      "event": "Psychiatric Diagnosis Interview"
+    },
+    {
+      "date": "1975-09-27",
+      "event": "Audit C Score Current: 7"
+    },
+    {
+      "date": "1976-02-11",
+      "cpt_code": "90792",
+      "event": "Psychiatric Diagnostic Evaluation (With medical services)"
+    },
+    {
+      "date": "1976-09-02",
+      "cpt_code": "90791",
+      "event": "Psychiatric Diagnostic Evaluation (No medical services)"
+    },
+    {
+      "date": "1976-10-13",
+      "event": "Audit C Score, Highest/Date noted"
+    },
+    {
+      "date": "1978-05-18",
+      "event": "Patient's thoughts about current substance abuse noted"
+    },
+    {
+      "date": "1979-07-06",
+      "event": "Movement D/O note recorded"
+    },
+    {
+      "date": "1979-10-21",
+      "event": "SOS-10 Total Score noted"
+    },
+    {
+      "date": "1981-01-14",
+      "event": "Communication with referring physician: Done"
+    },
+    {
+      "date": "1982-04-12",
+      "event": "Total time of visit recorded (in minutes)"
+    },
+    {
+      "date": "1982-08-16",
+      "cpt_code": "90792",
+      "event": "Psychiatric Diagnostic Evaluation (With medical services)"
+    },
+    {
+      "date": "1983-03-15",
+      "event": "SOS-10 Total Score noted"
+    },
+    {
+      "date": "1984-07-25",
+      "cpt_code": "90791",
+      "event": "Psychiatric Diagnostic Evaluation (No medical services)"
+    },
+    {
+      "date": "1984-09-17",
+      "event": "Communication with referring physician: Done"
+    },
+    {
+      "date": "1985-03-31",
+      "event": "Total time of visit recorded (in minutes)"
+    },
+    {
+      "date": "1985-05-11",
+      "event": "Lab results (Crt, BUN, AST/ALT, WBC); ADL Bathing: Independent"
+    },
+    {
+      "date": "1985-06-18",
+      "event": "Primary Care Doctor noted"
+    },
+    {
+      "date": "1986-03-07",
+      "event": "SOS-10 Total Score noted"
+    },
+    {
+      "date": "1986-07-27",
+      "event": "Total time of visit recorded (in minutes)"
+    },
+    {
+      "date": "1986-10-24",
+      "event": "Communication with referring physician: Done"
+    },
+    {
+      "date": "1987-04-12",
+      "event": "Audit C Score Current: 1, negative"
+    },
+    {
+      "date": "1987-06-24",
+      "event": "Lab results (TSH-2.18); ADL Bathing: Independent"
+    },
+    {
+      "date": "1988-05-24",
+      "cpt_code": "90792",
+      "event": "Psychiatric Diagnostic Evaluation (With medical services)"
+    },
+    {
+      "date": "1989-09-22",
+      "cpt_code": "90792",
+      "event": "Psychiatric Diagnostic Evaluation (With medical services)"
+    },
+    {
+      "date": "1989-10-24",
+      "cpt_code": "90801",
+      "event": "Psychiatric Diagnosis Interview"
+    },
+    {
+      "date": "1990-03-03",
+      "cpt_code": "90792",
+      "event": "Psychiatric Diagnostic Evaluation (With medical services)"
+    },
+    {
+      "date": "1990-05-24",
+      "cpt_code": "90792",
+      "event": "Psychiatric Diagnostic Evaluation (With medical services)"
+    },
+    {
+      "date": "1991-06-20",
+      "event": "Total time of visit recorded (in minutes)"
+    },
+    {
+      "date": "1991-07-15",
+      "cpt_code": "90792",
+      "event": "Psychiatric Diagnostic Evaluation (With medical services)"
+    },
+    {
+      "date": "1993-03-25",
+      "event": "Total time of visit recorded (in minutes)"
+    },
+    {
+      "date": "1994-06-12",
+      "event": "SOS-10 Total Score noted"
+    },
+    {
+      "date": "1994-08-14",
+      "event": "Primary Care Doctor noted"
+    },
+    {
+      "date": "1996-02-06",
+      "event": "Sleep study conducted; Pain Level: 7"
+    },
+    {
+      "date": "1998-02-15",
+      "event": "Total time of visit recorded (in minutes)"
+    },
+    {
+      "date": "1998-04-24",
+      "event": "Relevant Drug History noted"
+    },
+    {
+      "date": "1998-07-21",
+      "event": "Total time of visit recorded (in minutes)"
+    },
+    {
+      "date": "1998-08-01",
+      "event": "Communication with referring physician: Done"
+    },
+    {
+      "date": "2002-04-13",
+      "event": "Primary Care Doctor noted"
+    },
+    {
+      "date": "2011-01-25",
+      "cpt_code": "90792",
+      "event": "Psychiatric Diagnostic Evaluation (With medical services)"
+    },
+    {
+      "date": "2012-05-12",
+      "event": "Primary Care Doctor noted"
+    }
+  ],
+  "chronological_summary": [
+    {
+      "date": "1971-04-10",
+      "event": "Audit C Score Current is recorded (Score-1)."
+    },
+    {
+      "date": "1971-07-08",
+      "event": "A plan to move is noted, along with confirmation of no In-Home Services."
+    },
+    {
+      "date": "1971-09-12",
+      "event": "Report ending marker."
+    },
+    {
+      "date": "1972-01-26",
+      "event": "Communication with referring physician was Not Done."
+    },
+    {
+      "date": "1972-07-20",
+      "event": "CPT 90791 (Psychiatric Diagnostic Evaluation, No medical services) performed."
+    },
+    {
+      "date": "1973-02-14",
+      "event": "CPT 90801 (Psychiatric Diagnosis Interview) performed."
+    },
+    {
+      "date": "1975-04-09",
+      "event": "SOS-10 Total Score documented."
+    },
+    {
+      "date": "1975-07-29",
+      "event": "CPT 90801 (Psychiatric Diagnosis Interview) performed."
+    },
+    {
+      "date": "1975-09-27",
+      "event": "Audit C Score Current is recorded (7)."
+    },
+    {
+      "date": "1976-02-11",
+      "event": "CPT 90792 (Psychiatric Diagnostic Evaluation, With medical services) performed."
+    },
+    {
+      "date": "1976-09-02",
+      "event": "CPT 90791 (Psychiatric Diagnostic Evaluation, No medical services) performed."
+    },
+    {
+      "date": "1976-10-13",
+      "event": "Highest Audit C Score recorded."
+    },
+    {
+      "date": "1978-05-18",
+      "event": "Patient's thoughts about current substance abuse documented."
+    },
+    {
+      "date": "1979-07-06",
+      "event": "Movement D/O note recorded."
+    },
+    {
+      "date": "1979-10-21",
+      "event": "SOS-10 Total Score documented."
+    },
+    {
+      "date": "1981-01-14",
+      "event": "Communication with referring physician was Done."
+    },
+    {
+      "date": "1982-04-12",
+      "event": "Visit time recorded."
+    },
+    {
+      "date": "1982-08-16",
+      "event": "CPT 90792 (Psychiatric Diagnostic Evaluation, With medical services) performed."
+    },
+    {
+      "date": "1983-03-15",
+      "event": "SOS-10 Total Score documented."
+    },
+    {
+      "date": "1984-07-25",
+      "event": "CPT 90791 (Psychiatric Diagnostic Evaluation, No medical services) performed."
+    },
+    {
+      "date": "1984-09-17",
+      "event": "Communication with referring physician was Done."
+    },
+    {
+      "date": "1985-03-31",
+      "event": "Visit time recorded."
+    },
+    {
+      "date": "1985-05-11",
+      "event": "Lab results documented (Crt-1.96, BUN-26, AST/ALT-16/22, WBC_12.6); ADL Bathing noted as Independent."
+    },
+    {
+      "date": "1985-06-18",
+      "event": "Primary Care Doctor noted."
+    },
+    {
+      "date": "1986-03-07",
+      "event": "SOS-10 Total Score documented."
+    },
+    {
+      "date": "1986-07-27",
+      "event": "Visit time recorded."
+    },
+    {
+      "date": "1986-10-24",
+      "event": "Communication with referring physician was Done."
+    },
+    {
+      "date": "1987-04-12",
+      "event": "Audit C Score Current recorded (1, negative)."
+    },
+    {
+      "date": "1987-06-24",
+      "event": "TSH lab result documented (2.18); ADL Bathing noted as Independent."
+    },
+    {
+      "date": "1988-05-24",
+      "event": "CPT 90792 (Psychiatric Diagnostic Evaluation, With medical services) performed."
+    },
+    {
+      "date": "1989-09-22",
+      "event": "CPT 90792 (Psychiatric Diagnostic Evaluation, With medical services) performed."
+    },
+    {
+      "date": "1989-10-24",
+      "event": "CPT 90801 (Psychiatric Diagnosis Interview) performed."
+    },
+    {
+      "date": "1990-03-03",
+      "event": "CPT 90792 (Psychiatric Diagnostic Evaluation, With medical services) performed."
+    },
+    {
+      "date": "1990-05-24",
+      "event": "CPT 90792 (Psychiatric Diagnostic Evaluation, With medical services) performed."
+    },
+    {
+      "date": "1991-06-20",
+      "event": "Visit time recorded."
+    },
+    {
+      "date": "1991-07-15",
+      "event": "CPT 90792 (Psychiatric Diagnostic Evaluation, With medical services) performed."
+    },
+    {
+      "date": "1993-03-25",
+      "event": "Visit time recorded."
+    },
+    {
+      "date": "1994-06-12",
+      "event": "SOS-10 Total Score documented."
+    },
+    {
+      "date": "1994-08-14",
+      "event": "Primary Care Doctor noted."
+    },
+    {
+      "date": "1996-02-06",
+      "event": "Sleep study conducted; Pain Treatment Pain Level noted (7)."
+    },
+    {
+      "date": "1998-02-15",
+      "event": "Visit time recorded."
+    },
+    {
+      "date": "1998-04-24",
+      "event": "Relevant Drug History documented."
+    },
+    {
+      "date": "1998-07-21",
+      "event": "Visit time recorded."
+    },
+    {
+      "date": "1998-08-01",
+      "event": "Communication with referring physician was Done."
+    },
+    {
+      "date": "2002-04-13",
+      "event": "Primary Care Doctor noted."
+    },
+    {
+      "date": "2011-01-25",
+      "event": "CPT 90792 (Psychiatric Diagnostic Evaluation, With medical services) performed."
+    },
+    {
+      "date": "2012-05-12",
+      "event": "Primary Care Doctor noted."
+    }
+  ]
+}
+```
